@@ -4,5 +4,7 @@ Redis is often referred to as a data structures server. What this means is that 
 Data structures implemented into Redis have a few special properties:
 
 Redis cares to store them on disk, even if they are always served and modified into the server memory. This means that Redis is fast, but that it is also non-volatile.
+
 The implementation of data structures emphasizes memory efficiency, so data structures inside Redis will likely use less memory compared to the same data structure modelled using a high-level programming language.
+
 Redis offers a number of features that are natural to find in a database, like replication, tunable levels of durability, clustering, and high availability.
